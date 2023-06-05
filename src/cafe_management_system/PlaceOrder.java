@@ -9,13 +9,13 @@ import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 import common.OpenPdf;
 import DAO.*;
+import DAO.CategoryDao;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.io.FileOutputStream;
 import java.text.SimpleDateFormat;
-import model.Product;
-import model.Category;
-import model.Bill;
+import model.*;
+import model.Customer;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Iterator;
@@ -200,6 +200,11 @@ public class PlaceOrder extends javax.swing.JFrame {
         txtCustomerName.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
         txtCustomerName.setForeground(new java.awt.Color(255, 255, 255));
         txtCustomerName.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        txtCustomerName.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtCustomerNameActionPerformed(evt);
+            }
+        });
         txtCustomerName.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtCustomerNameKeyReleased(evt);
@@ -264,6 +269,11 @@ public class PlaceOrder extends javax.swing.JFrame {
         txtSearch.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
         txtSearch.setForeground(new java.awt.Color(255, 255, 255));
         txtSearch.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        txtSearch.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtSearchActionPerformed(evt);
+            }
+        });
         txtSearch.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtSearchKeyReleased(evt);
@@ -532,6 +542,11 @@ public class PlaceOrder extends javax.swing.JFrame {
         String createdBy = userEmail;
         
         Bill bill =  new Bill();
+        Customer customer = new Customer();
+        customer.setName(customerName);
+        customer.setEmail(customerEmail);
+        customer.setMobileNumber(customerMobileNumber);
+        CustomerDao.save(customer);
         bill.setId(billId);
         bill.setName(customerName);
         bill.setMobileNumber(customerMobileNumber);
@@ -607,6 +622,14 @@ public class PlaceOrder extends javax.swing.JFrame {
     private void txtProPriceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtProPriceActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtProPriceActionPerformed
+
+    private void txtCustomerNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCustomerNameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCustomerNameActionPerformed
+
+    private void txtSearchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSearchActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtSearchActionPerformed
 
     /**
      * @param args the command line arguments
