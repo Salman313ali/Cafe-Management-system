@@ -97,12 +97,12 @@ public class ViewBillsOrderPlaceDetails extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 10, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1250, 20, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Manrope Medium", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Filter By Date");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 130, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 110, 130, 50));
 
         jTextField1.setBackground(new java.awt.Color(102, 102, 102));
         jTextField1.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
@@ -113,12 +113,12 @@ public class ViewBillsOrderPlaceDetails extends javax.swing.JFrame {
                 jTextField1KeyReleased(evt);
             }
         });
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 90, 240, -1));
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 110, 240, 40));
 
         jLabel3.setFont(new java.awt.Font("Manrope Medium", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Change Order By Id");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 90, 200, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 110, 200, 50));
 
         jComboBox1.setBackground(new java.awt.Color(102, 102, 102));
         jComboBox1.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
@@ -129,12 +129,11 @@ public class ViewBillsOrderPlaceDetails extends javax.swing.JFrame {
                 jComboBox1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 90, 280, -1));
+        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 110, 280, 50));
 
         jTable1.setBackground(new java.awt.Color(204, 204, 204));
         jTable1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jTable1.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
-        jTable1.setForeground(new java.awt.Color(255, 255, 255));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -150,7 +149,7 @@ public class ViewBillsOrderPlaceDetails extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable1);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(27, 132, 930, 360));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 160, 930, 380));
 
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/back.jpg"))); // NOI18N

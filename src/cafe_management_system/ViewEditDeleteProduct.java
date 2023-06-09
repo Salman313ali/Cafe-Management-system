@@ -86,31 +86,31 @@ public class ViewEditDeleteProduct extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(255, 0, 0));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Exit");
+        jButton1.setText("X");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 30, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1260, 10, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Name");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 90, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 220, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Category");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 140, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 270, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Price");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 200, -1, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 330, -1, -1));
 
         jLabel6.setText("00");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1185, 272, -1, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1250, 260, -1, -1));
 
         txtName.setBackground(new java.awt.Color(102, 102, 102));
         txtName.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
@@ -121,12 +121,12 @@ public class ViewEditDeleteProduct extends javax.swing.JFrame {
                 txtNameKeyReleased(evt);
             }
         });
-        getContentPane().add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 90, 250, 30));
+        getContentPane().add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 220, 250, 30));
 
         jComboBox1.setBackground(new java.awt.Color(102, 102, 102));
         jComboBox1.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
         jComboBox1.setForeground(new java.awt.Color(255, 255, 255));
-        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 140, 250, 30));
+        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 270, 250, 30));
 
         txtPrice.setBackground(new java.awt.Color(102, 102, 102));
         txtPrice.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
@@ -142,7 +142,7 @@ public class ViewEditDeleteProduct extends javax.swing.JFrame {
                 txtPriceKeyReleased(evt);
             }
         });
-        getContentPane().add(txtPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 190, 250, 30));
+        getContentPane().add(txtPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 320, 250, 30));
 
         btnUpdate.setBackground(new java.awt.Color(0, 153, 0));
         btnUpdate.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -154,7 +154,7 @@ public class ViewEditDeleteProduct extends javax.swing.JFrame {
                 btnUpdateActionPerformed(evt);
             }
         });
-        getContentPane().add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 240, 80, 30));
+        getContentPane().add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 370, 80, 30));
 
         btnDelete.setBackground(new java.awt.Color(255, 0, 51));
         btnDelete.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -166,7 +166,7 @@ public class ViewEditDeleteProduct extends javax.swing.JFrame {
                 btnDeleteActionPerformed(evt);
             }
         });
-        getContentPane().add(btnDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 240, 70, 30));
+        getContentPane().add(btnDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 370, 70, 30));
 
         btnClear.setBackground(new java.awt.Color(255, 102, 0));
         btnClear.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -178,7 +178,7 @@ public class ViewEditDeleteProduct extends javax.swing.JFrame {
                 btnClearActionPerformed(evt);
             }
         });
-        getContentPane().add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 240, 70, 30));
+        getContentPane().add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 370, 70, 30));
 
         jTable1.setBackground(new java.awt.Color(204, 204, 204));
         jTable1.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
@@ -198,7 +198,7 @@ public class ViewEditDeleteProduct extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable1);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 310, 760, 210));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 120, 640, 430));
 
         lblId.setText("00");
         getContentPane().add(lblId, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 210, -1, -1));

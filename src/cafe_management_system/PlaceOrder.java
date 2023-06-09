@@ -151,7 +151,7 @@ public class PlaceOrder extends javax.swing.JFrame {
         jLabel14 = new javax.swing.JLabel();
         lblGrandTotal = new javax.swing.JLabel();
         btnGenerateBill = new javax.swing.JButton();
-        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -176,12 +176,12 @@ public class PlaceOrder extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1090, 7, 40, 30));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1250, 10, 40, 30));
 
         jLabel2.setFont(new java.awt.Font("Manrope Medium", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Bill ID:");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 110, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 100, -1, -1));
 
         jLabel3.setText("--");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 82, -1, -1));
@@ -189,12 +189,12 @@ public class PlaceOrder extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Customer Details");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 160, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 150, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Name");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(96, 191, -1, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 180, -1, -1));
 
         txtCustomerName.setBackground(new java.awt.Color(102, 102, 102));
         txtCustomerName.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
@@ -210,12 +210,12 @@ public class PlaceOrder extends javax.swing.JFrame {
                 txtCustomerNameKeyReleased(evt);
             }
         });
-        getContentPane().add(txtCustomerName, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 220, 223, -1));
+        getContentPane().add(txtCustomerName, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 210, 223, -1));
 
         jLabel6.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Mobile Number");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(96, 250, -1, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 240, -1, -1));
 
         txtMobileNumber.setBackground(new java.awt.Color(102, 102, 102));
         txtMobileNumber.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
@@ -226,12 +226,12 @@ public class PlaceOrder extends javax.swing.JFrame {
                 txtMobileNumberKeyReleased(evt);
             }
         });
-        getContentPane().add(txtMobileNumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 280, 223, -1));
+        getContentPane().add(txtMobileNumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 270, 223, -1));
 
         jLabel7.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Email");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(96, 306, -1, -1));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 290, -1, -1));
 
         txtEmail.setBackground(new java.awt.Color(102, 102, 102));
         txtEmail.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
@@ -242,12 +242,12 @@ public class PlaceOrder extends javax.swing.JFrame {
                 txtEmailKeyReleased(evt);
             }
         });
-        getContentPane().add(txtEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 330, 223, -1));
+        getContentPane().add(txtEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 320, 223, -1));
 
         jLabel8.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Category");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 120, -1, -1));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 110, -1, -1));
 
         jComboBox1.setBackground(new java.awt.Color(102, 102, 102));
         jComboBox1.setFont(new java.awt.Font("Manrope Medium", 1, 14)); // NOI18N
@@ -258,12 +258,12 @@ public class PlaceOrder extends javax.swing.JFrame {
                 jComboBox1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 150, 236, -1));
+        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 140, 236, -1));
 
         jLabel9.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Search");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 190, -1, -1));
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 180, -1, -1));
 
         txtSearch.setBackground(new java.awt.Color(102, 102, 102));
         txtSearch.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
@@ -279,7 +279,7 @@ public class PlaceOrder extends javax.swing.JFrame {
                 txtSearchKeyReleased(evt);
             }
         });
-        getContentPane().add(txtSearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 220, 236, -1));
+        getContentPane().add(txtSearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 210, 236, -1));
 
         jTable1.setBackground(new java.awt.Color(204, 204, 204));
         jTable1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -300,12 +300,12 @@ public class PlaceOrder extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable1);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 260, 240, 260));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 250, 240, 260));
 
         jLabel10.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Name");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 120, -1, -1));
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 110, -1, -1));
 
         txtProName.setBackground(new java.awt.Color(102, 102, 102));
         txtProName.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
@@ -316,12 +316,12 @@ public class PlaceOrder extends javax.swing.JFrame {
                 txtProNameActionPerformed(evt);
             }
         });
-        getContentPane().add(txtProName, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 150, 97, -1));
+        getContentPane().add(txtProName, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 140, 97, -1));
 
         jLabel11.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Price");
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 120, -1, -1));
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 110, -1, -1));
 
         txtProPrice.setBackground(new java.awt.Color(102, 102, 102));
         txtProPrice.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
@@ -332,12 +332,12 @@ public class PlaceOrder extends javax.swing.JFrame {
                 txtProPriceActionPerformed(evt);
             }
         });
-        getContentPane().add(txtProPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 150, 170, -1));
+        getContentPane().add(txtProPrice, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 140, 170, -1));
 
         jLabel12.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("Quantity");
-        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 180, -1, -1));
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 170, -1, -1));
 
         jSpinner1.setFont(new java.awt.Font("Manrope Medium", 1, 14)); // NOI18N
         jSpinner1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -346,18 +346,18 @@ public class PlaceOrder extends javax.swing.JFrame {
                 jSpinner1StateChanged(evt);
             }
         });
-        getContentPane().add(jSpinner1, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 210, 97, -1));
+        getContentPane().add(jSpinner1, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 200, 97, -1));
 
         jLabel13.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("Total");
-        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 180, -1, -1));
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 170, -1, -1));
 
         txtProTotal.setBackground(new java.awt.Color(102, 102, 102));
         txtProTotal.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
         txtProTotal.setForeground(new java.awt.Color(255, 255, 255));
         txtProTotal.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        getContentPane().add(txtProTotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 210, 170, -1));
+        getContentPane().add(txtProTotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 200, 170, -1));
 
         btnClear.setBackground(new java.awt.Color(255, 0, 0));
         btnClear.setFont(new java.awt.Font("Manrope Medium", 1, 14)); // NOI18N
@@ -369,7 +369,7 @@ public class PlaceOrder extends javax.swing.JFrame {
                 btnClearActionPerformed(evt);
             }
         });
-        getContentPane().add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 250, 80, 30));
+        getContentPane().add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 240, 80, 30));
 
         btnAddToCart.setBackground(new java.awt.Color(51, 153, 0));
         btnAddToCart.setFont(new java.awt.Font("Manrope Medium", 1, 14)); // NOI18N
@@ -381,7 +381,7 @@ public class PlaceOrder extends javax.swing.JFrame {
                 btnAddToCartActionPerformed(evt);
             }
         });
-        getContentPane().add(btnAddToCart, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 250, 110, 30));
+        getContentPane().add(btnAddToCart, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 240, 110, 30));
 
         jScrollPane2.setBackground(new java.awt.Color(204, 204, 204));
         jScrollPane2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -404,17 +404,17 @@ public class PlaceOrder extends javax.swing.JFrame {
         });
         jScrollPane2.setViewportView(jTable2);
 
-        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 290, -1, 242));
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 280, -1, 242));
 
         jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("Grant Total: Rs.");
-        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 540, -1, -1));
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 530, -1, -1));
 
         lblGrandTotal.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         lblGrandTotal.setForeground(new java.awt.Color(255, 255, 255));
         lblGrandTotal.setText("00");
-        getContentPane().add(lblGrandTotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 540, -1, 20));
+        getContentPane().add(lblGrandTotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 530, -1, 20));
 
         btnGenerateBill.setBackground(new java.awt.Color(0, 153, 0));
         btnGenerateBill.setFont(new java.awt.Font("Manrope Medium", 1, 14)); // NOI18N
@@ -426,10 +426,10 @@ public class PlaceOrder extends javax.swing.JFrame {
                 btnGenerateBillActionPerformed(evt);
             }
         });
-        getContentPane().add(btnGenerateBill, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 534, 140, 30));
+        getContentPane().add(btnGenerateBill, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 520, 140, 30));
 
-        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/back.jpg"))); // NOI18N
-        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(-140, 0, -1, -1));
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/back.jpg"))); // NOI18N
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -678,7 +678,7 @@ public class PlaceOrder extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;

@@ -35,7 +35,7 @@ public class ReserveDao {
                 rescustomer.setName(rs.getString("Name"));
                 rescustomer.setEmail(rs.getString("Email"));
                 rescustomer.setMobileNumber(rs.getString("MobileNumber"));
-                rescustomer.setDate(rs.getDate("Rdate"));
+                rescustomer.setDate(rs.getDate("Rdate").toLocalDate());
                 rescustomer.setTime(rs.getObject("Rtime", LocalTime.class));
                 rescustomer.setId(rs.getInt("id"));
                 arrayList.add(rescustomer);
@@ -45,5 +45,15 @@ public class ReserveDao {
                 JOptionPane.showMessageDialog(null, e);
                 }
         return arrayList;
+    }
+    
+    public static void delete(String id){
+        String query = "delete from reservation where id = '"+id+"'";
+        DbOperations.setDataOrDelete(query, "reservation deleted Successfully");
+    }
+    
+    public static void update(ResCustomer reserve){
+        String query = "call updateData('"+reserve.getId()+"','"+reserve.getName()+"','"+reserve.getEmail()+"','"+reserve.getMobileNumber()+"','"+reserve.getDate()+"','"+reserve.getTime()+"')";
+        DbOperations.setDataOrDelete(query, "Reservation Updated Successfully");
     }
 }

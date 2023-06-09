@@ -79,15 +79,14 @@ public class ManageCategory extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(922, 10, 40, 30));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1240, 20, 40, 30));
 
         jLabel2.setFont(new java.awt.Font("Manrope Medium", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("VIEW CATEGORY");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 130, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 130, -1, -1));
 
         jTable1.setBackground(new java.awt.Color(204, 204, 204));
-        jTable1.setForeground(new java.awt.Color(255, 255, 255));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -103,12 +102,12 @@ public class ManageCategory extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable1);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 170, 350, 320));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 170, 350, 320));
 
         jLabel4.setFont(new java.awt.Font("Manrope Medium", 1, 24)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("ADD NEW CATEGORY");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 230, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 230, -1, -1));
 
         txtName.setBackground(new java.awt.Color(102, 102, 102));
         txtName.setForeground(new java.awt.Color(255, 255, 255));
@@ -123,7 +122,7 @@ public class ManageCategory extends javax.swing.JFrame {
                 txtNameKeyReleased(evt);
             }
         });
-        getContentPane().add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 270, 270, 40));
+        getContentPane().add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 270, 270, 40));
 
         btnSave.setBackground(new java.awt.Color(51, 153, 0));
         btnSave.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
@@ -135,7 +134,7 @@ public class ManageCategory extends javax.swing.JFrame {
                 btnSaveActionPerformed(evt);
             }
         });
-        getContentPane().add(btnSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 330, 70, 30));
+        getContentPane().add(btnSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 330, 70, 30));
 
         btnClear.setBackground(new java.awt.Color(204, 0, 0));
         btnClear.setFont(new java.awt.Font("Manrope Medium", 0, 14)); // NOI18N
@@ -147,7 +146,7 @@ public class ManageCategory extends javax.swing.JFrame {
                 btnClearActionPerformed(evt);
             }
         });
-        getContentPane().add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 330, 70, 30));
+        getContentPane().add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 330, 70, 30));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/back.jpg"))); // NOI18N
         jLabel3.setText("jLabel3");

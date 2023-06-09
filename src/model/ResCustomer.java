@@ -16,7 +16,7 @@ public class ResCustomer {
     private String Name;
     private String Email;
     private String MobileNumber;
-    private Date date;
+    private LocalDate date;
     private LocalTime time;
     private int id;
     
@@ -39,7 +39,7 @@ public class ResCustomer {
         return MobileNumber;
     }
 
-    public Date getDate() {
+    public LocalDate getDate() {
         return date;
     }
 
@@ -59,7 +59,7 @@ public class ResCustomer {
         this.MobileNumber = MobileNumber;
     }
 
-    public void setDate(Date date) {
+    public void setDate(LocalDate date) {
         this.date = date;
     }
 

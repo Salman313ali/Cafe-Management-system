@@ -85,32 +85,32 @@ public class SIGN_UP extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Ink Free", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("SIGN UP");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 110, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 140, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Name");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 170, 61, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 200, 61, -1));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Email");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 210, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 240, -1, -1));
 
         MobileNumber.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
         MobileNumber.setForeground(new java.awt.Color(255, 255, 255));
         MobileNumber.setText("Mobile Number");
-        getContentPane().add(MobileNumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 250, -1, -1));
+        getContentPane().add(MobileNumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 280, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Password");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 290, -1, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 320, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI Semibold", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Confirm Password");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 330, -1, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 360, -1, -1));
 
         textName.setForeground(new java.awt.Color(102, 102, 102));
         textName.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -119,7 +119,7 @@ public class SIGN_UP extends javax.swing.JFrame {
                 textNameKeyReleased(evt);
             }
         });
-        getContentPane().add(textName, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 170, 270, 30));
+        getContentPane().add(textName, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 200, 270, 30));
 
         textEmail.setForeground(new java.awt.Color(102, 102, 102));
         textEmail.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -133,7 +133,7 @@ public class SIGN_UP extends javax.swing.JFrame {
                 textEmailKeyReleased(evt);
             }
         });
-        getContentPane().add(textEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 210, 270, 30));
+        getContentPane().add(textEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 240, 270, 30));
 
         textMobNum.setForeground(new java.awt.Color(102, 102, 102));
         textMobNum.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -147,7 +147,7 @@ public class SIGN_UP extends javax.swing.JFrame {
                 textMobNumKeyReleased(evt);
             }
         });
-        getContentPane().add(textMobNum, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 250, 270, 30));
+        getContentPane().add(textMobNum, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 280, 270, 30));
 
         textPassword.setForeground(new java.awt.Color(102, 102, 102));
         textPassword.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -161,7 +161,7 @@ public class SIGN_UP extends javax.swing.JFrame {
                 textPasswordKeyReleased(evt);
             }
         });
-        getContentPane().add(textPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 290, 270, 30));
+        getContentPane().add(textPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 320, 270, 30));
 
         textConfPAass.setForeground(new java.awt.Color(102, 102, 102));
         textConfPAass.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -175,7 +175,7 @@ public class SIGN_UP extends javax.swing.JFrame {
                 textConfPAassKeyReleased(evt);
             }
         });
-        getContentPane().add(textConfPAass, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 330, 270, 30));
+        getContentPane().add(textConfPAass, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 360, 270, 30));
 
         btncreate.setBackground(new java.awt.Color(0, 153, 102));
         btncreate.setFont(new java.awt.Font("Segoe UI Semilight", 1, 14)); // NOI18N
@@ -187,7 +187,7 @@ public class SIGN_UP extends javax.swing.JFrame {
                 btncreateActionPerformed(evt);
             }
         });
-        getContentPane().add(btncreate, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 390, 140, 30));
+        getContentPane().add(btncreate, new org.netbeans.lib.awtextra.AbsoluteConstraints(1080, 420, 140, 30));
 
         jButton2.setBackground(new java.awt.Color(51, 51, 51));
         jButton2.setFont(new java.awt.Font("Segoe UI Semilight", 1, 14)); // NOI18N
@@ -199,7 +199,7 @@ public class SIGN_UP extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 390, 90, 30));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 420, 90, 30));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/sign.jpg"))); // NOI18N
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));

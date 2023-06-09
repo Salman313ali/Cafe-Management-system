@@ -20,6 +20,9 @@ public class tables {
             String productTable = "Create table product(id int AUTO_INCREMENT primary key,name varchar(200),category varchar(200),price varchar(200), cat_id int, foreign key (cat_id) references category(id))";
             String customerTable = "create table customer(id int auto_increment primary key,Name varchar(20),MobileNumber varchar(30),Email varchar(200))";
             String ReservationTable = "create table reservation(id int auto_increment primary key,Rtime time,Rdate date,Cdate date ,c_id int , e_id int,foreign key (c_id) references customer(id),foreign key (e_id) references user(id))";
+           
+            String delimiter="create procedure updateData(in myid int,in Cname varchar(50),in Cemail varchar(200),in CmobileNumber varchar(30),in Dates date,in times time) begin declare Cid int; select id into Cid from reservation r where r.id = myid; update reservation set Rtime=times, Rdate=Dates where id=myid; update customer set Name=Cname,Email=Cemail,MobileNumber=CmobileNumber where id=Cid; end ";
+
             DbOperations.setDataOrDelete(userTable, "User Table Created Successfully");
             DbOperations.setDataOrDelete(adminDetails, "Admin Details added Successfully");
             DbOperations.setDataOrDelete(categoryTable,"Category Table Created Successfully");
@@ -27,6 +30,8 @@ public class tables {
             DbOperations.setDataOrDelete(billTable,"Bill Table Created Successfully");
             DbOperations.setDataOrDelete(customerTable,"Customer Table Created Successfully");
             DbOperations.setDataOrDelete(ReservationTable,"Reservation Table Created Successfully");
+            DbOperations.setDataOrDelete(delimiter,"deli Table Created Successfully");
+            
             
         }
     

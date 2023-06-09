@@ -53,7 +53,7 @@ public class Home extends javax.swing.JFrame {
         btnEditItems = new javax.swing.JButton();
         btncategory = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bill.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
@@ -83,18 +83,18 @@ public class Home extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, 400, 80));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 300, 400, 80));
 
         jButton3.setBackground(new java.awt.Color(255, 0, 0));
         jButton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setText("Exit");
+        jButton3.setText("X");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 10, 90, 40));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1240, 20, 30, 30));
 
         jButton4.setBackground(new java.awt.Color(51, 51, 51));
         jButton4.setFont(new java.awt.Font("Manrope Medium", 1, 24)); // NOI18N
@@ -106,7 +106,7 @@ public class Home extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 110, 400, 80));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 120, 400, 80));
 
         jButton5.setBackground(new java.awt.Color(0, 153, 153));
         jButton5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -118,7 +118,7 @@ public class Home extends javax.swing.JFrame {
                 jButton5ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 470, 150, 40));
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 480, 150, 40));
 
         btnNewProduct.setBackground(new java.awt.Color(102, 102, 102));
         btnNewProduct.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
@@ -130,7 +130,7 @@ public class Home extends javax.swing.JFrame {
                 btnNewProductActionPerformed(evt);
             }
         });
-        getContentPane().add(btnNewProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 200, 190, 80));
+        getContentPane().add(btnNewProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 210, 190, 80));
 
         btnEditItems.setBackground(new java.awt.Color(102, 102, 102));
         btnEditItems.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
@@ -142,7 +142,7 @@ public class Home extends javax.swing.JFrame {
                 btnEditItemsActionPerformed(evt);
             }
         });
-        getContentPane().add(btnEditItems, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 200, 180, 80));
+        getContentPane().add(btnEditItems, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 210, 180, 80));
 
         btncategory.setBackground(new java.awt.Color(102, 102, 102));
         btncategory.setFont(new java.awt.Font("Manrope Medium", 0, 17)); // NOI18N
@@ -154,7 +154,7 @@ public class Home extends javax.swing.JFrame {
                 btncategoryActionPerformed(evt);
             }
         });
-        getContentPane().add(btncategory, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 380, 190, 80));
+        getContentPane().add(btncategory, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 390, 190, 80));
 
         jButton1.setBackground(new java.awt.Color(102, 102, 102));
         jButton1.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
@@ -166,11 +166,10 @@ public class Home extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 380, 190, 80));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 390, 190, 80));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bill.jpg"))); // NOI18N
-        jLabel2.setText("jLabel2");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bill.jpg"))); // NOI18N
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -274,6 +273,6 @@ public class Home extends javax.swing.JFrame {
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     // End of variables declaration//GEN-END:variables
 }

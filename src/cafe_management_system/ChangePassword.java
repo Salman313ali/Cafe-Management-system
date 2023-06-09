@@ -76,7 +76,7 @@ public class ChangePassword extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Manrope Medium", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("CHANGE PASSWORD");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 90, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, -1, -1));
 
         jButton1.setBackground(new java.awt.Color(255, 0, 51));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -87,22 +87,22 @@ public class ChangePassword extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(928, 18, 30, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1250, 20, 30, -1));
 
         jLabel2.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Old Password");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 170, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 260, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("New Password");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 220, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 310, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Manrope Medium", 0, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Confirm Password");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 270, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 360, -1, -1));
 
         textOldPassword.setBackground(new java.awt.Color(102, 102, 102));
         textOldPassword.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -113,7 +113,7 @@ public class ChangePassword extends javax.swing.JFrame {
                 textOldPasswordKeyReleased(evt);
             }
         });
-        getContentPane().add(textOldPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 170, 280, 30));
+        getContentPane().add(textOldPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 260, 280, 30));
 
         textNewPassword.setBackground(new java.awt.Color(102, 102, 102));
         textNewPassword.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -124,7 +124,7 @@ public class ChangePassword extends javax.swing.JFrame {
                 textNewPasswordKeyReleased(evt);
             }
         });
-        getContentPane().add(textNewPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 220, 280, 30));
+        getContentPane().add(textNewPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 310, 280, 30));
 
         textConfirmPassword.setBackground(new java.awt.Color(102, 102, 102));
         textConfirmPassword.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -138,7 +138,7 @@ public class ChangePassword extends javax.swing.JFrame {
                 textConfirmPasswordKeyReleased(evt);
             }
         });
-        getContentPane().add(textConfirmPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 270, 280, 30));
+        getContentPane().add(textConfirmPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 360, 280, 30));
 
         btnUpdate.setBackground(new java.awt.Color(0, 153, 0));
         btnUpdate.setFont(new java.awt.Font("Manrope Medium", 1, 14)); // NOI18N
@@ -150,7 +150,7 @@ public class ChangePassword extends javax.swing.JFrame {
                 btnUpdateActionPerformed(evt);
             }
         });
-        getContentPane().add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 330, 100, 30));
+        getContentPane().add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 420, 100, 30));
 
         btnClear.setBackground(new java.awt.Color(255, 0, 0));
         btnClear.setFont(new java.awt.Font("Manrope Medium", 1, 14)); // NOI18N
@@ -162,7 +162,7 @@ public class ChangePassword extends javax.swing.JFrame {
                 btnClearActionPerformed(evt);
             }
         });
-        getContentPane().add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(652, 330, 80, 30));
+        getContentPane().add(btnClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 420, 80, 30));
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/back.jpg"))); // NOI18N
         jLabel5.setText("jLabel5");
