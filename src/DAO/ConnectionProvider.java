@@ -12,7 +12,7 @@ public class ConnectionProvider {
     public static Connection getCon(){
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cmsn?useSSL=false","root","p@rs@nt@021");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cmsn?useSSL=false","root","root");
             return con;
         }
     
