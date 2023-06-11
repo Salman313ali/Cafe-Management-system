@@ -81,6 +81,11 @@ public class ViewBillsOrderPlaceDetails extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
+        addComponentListener(new java.awt.event.ComponentAdapter() {
+            public void componentShown(java.awt.event.ComponentEvent evt) {
+                formComponentShown(evt);
+            }
+        });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Manrope Medium", 1, 18)); // NOI18N
@@ -182,9 +187,12 @@ public class ViewBillsOrderPlaceDetails extends javax.swing.JFrame {
         OpenPdf.openById(id); 
     }//GEN-LAST:event_jTable1MouseClicked
 
-    private void formComponentShown(java.awt.event.ComponentEvent evt){
-        tableDetails();
-    }
+    private void formComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_formComponentShown
+        // TODO add your handling code here:
+                tableDetails();
+    }//GEN-LAST:event_formComponentShown
+
+    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">

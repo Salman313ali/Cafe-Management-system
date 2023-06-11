@@ -426,7 +426,7 @@ public class PlaceOrder extends javax.swing.JFrame {
                 btnGenerateBillActionPerformed(evt);
             }
         });
-        getContentPane().add(btnGenerateBill, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 520, 140, 30));
+        getContentPane().add(btnGenerateBill, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 530, 140, 30));
 
         jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/back.jpg"))); // NOI18N
         getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -558,7 +558,8 @@ public class PlaceOrder extends javax.swing.JFrame {
         BillDao.save(bill);
         
         //Craeting document
-        String path = "C:\\Users\\Satguru Pyari\\Desktop\\bill";
+        //C:\Users\salma\Downloads\bills
+        String path = "C:\\Users\\salma\\Downloads\\bills\\bill";
         com.itextpdf.text.Document doc = new com.itextpdf.text.Document();
         try{
             PdfWriter.getInstance(doc, new FileOutputStream(path + ""+billId+".pdf"));

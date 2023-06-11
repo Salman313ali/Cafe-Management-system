@@ -14,10 +14,11 @@ import java.io.File;
 public class OpenPdf {
     public static void openById(String id){
         try{
-            if((new File("C:\\Users\\Satguru Pyari\\Desktop\\bill"+id+".pdf")).exists()){
+            //C:\Users\salma\Downloads\bills
+            if((new File("C:\\Users\\salma\\Downloads\\bills\\bill"+id+".pdf")).exists()){
                 Process p = Runtime
                         .getRuntime()
-                        .exec("rundll32 url.dll,FileProtocolHandler C:\\Users\\Satguru Pyari\\Desktop\\bill"+id+".pdf");
+                        .exec("rundll32 url.dll,FileProtocolHandler C:\\Users\\salma\\Downloads\\bills\\bill"+id+".pdf");
                         
             }
             else

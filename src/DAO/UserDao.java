@@ -13,7 +13,7 @@ import java.sql.*;
 public class UserDao {
     public static void save( User user){
         String query = "insert into user(name,email,mobileNumber,password,confirmpassword,status) values('"+user.getName()+"','"+user.getEmail()+"','"+user.getMobile()+"','"+user.getPassword()+"','"+user.getConfirmPassword()+"','true')";
-        DbOperations.setDataOrDelete(query,"registered successfully!wait for admin Approval");
+        DbOperations.setDataOrDelete(query,"registered successfully");
         
     }
     
